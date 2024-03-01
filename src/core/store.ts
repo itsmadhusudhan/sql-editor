@@ -11,13 +11,16 @@ export const createStore = <T>(initialState: T) => {
       return state;
     },
     setState: (value: Partial<T> | StateFn<T>) => {
+      const prevState = state;
       if (typeof value === "function") {
         state = value(state);
       } else {
         state = { ...state, ...value };
       }
 
-      subscribers.forEach((cb) => cb());
+      if (JSON.stringify(prevState) !== JSON.stringify(state)) {
+        subscribers.forEach((cb) => cb());
+      }
     },
     subscribe: (callback: () => void) => {
       subscribers.push(callback);
@@ -29,12 +32,18 @@ export const createStore = <T>(initialState: T) => {
   };
 };
 
-export const useStore = (store: ReturnType<typeof createStore>) => {
+type StoreType<T> = ReturnType<typeof createStore<T>>;
+type Callback<T, P> = (state: T) => P;
+
+export const useStore = <T, P>(
+  store: StoreType<T>,
+  selector: Callback<T, P> = (state) => state as unknown as P
+): [P, (...args: Parameters<typeof store.setState>) => void] => {
   const state = useSyncExternalStore(
     (cb) => {
       return store.subscribe(cb);
     },
-    () => store.getState()
+    useCallback(() => selector(store.getState()), [store, selector])
   );
 
   const setState = useCallback(
@@ -44,8 +53,5 @@ export const useStore = (store: ReturnType<typeof createStore>) => {
     [store]
   );
 
-  return {
-    state,
-    setState,
-  };
+  return [state, setState];
 };
