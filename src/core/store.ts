@@ -43,7 +43,7 @@ export const useStore = <T, P>(
     (cb) => {
       return store.subscribe(cb);
     },
-    useCallback(() => selector(store.getState()), [store, selector])
+    () => selector(store.getState())
   );
 
   const setState = useCallback(

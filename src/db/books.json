@@ -1,0 +1,702 @@
+[
+    {
+        "book_id": 1,
+        "title": "Quis officia quidem animi suscipit libero sed.",
+        "author_id": 1,
+        "genre_id": 1,
+        "publication_year": "2013"
+    },
+    {
+        "book_id": 2,
+        "title": "Sequi expedita rem cum blanditiis sed omnis hic sit.",
+        "author_id": 2,
+        "genre_id": 2,
+        "publication_year": "2017"
+    },
+    {
+        "book_id": 3,
+        "title": "Nisi sit numquam eaque vero cum vitae.",
+        "author_id": 2,
+        "genre_id": 3,
+        "publication_year": "2000"
+    },
+    {
+        "book_id": 4,
+        "title": "Ad qui in tempore impedit.",
+        "author_id": 4,
+        "genre_id": 4,
+        "publication_year": "1987"
+    },
+    {
+        "book_id": 5,
+        "title": "Cumque libero est repudiandae perferendis.",
+        "author_id": 5,
+        "genre_id": 5,
+        "publication_year": "1970"
+    },
+    {
+        "book_id": 6,
+        "title": "Cum quis sit rerum non sit quia sint.",
+        "author_id": 6,
+        "genre_id": 6,
+        "publication_year": "1982"
+    },
+    {
+        "book_id": 7,
+        "title": "Quod sit dolorum iste animi.",
+        "author_id": 7,
+        "genre_id": 7,
+        "publication_year": "1972"
+    },
+    {
+        "book_id": 8,
+        "title": "Adipisci nulla delectus id veritatis natus suscipit.",
+        "author_id": 8,
+        "genre_id": 8,
+        "publication_year": "2013"
+    },
+    {
+        "book_id": 9,
+        "title": "Rem quia et autem quibusdam officia quod deserunt quam.",
+        "author_id": 9,
+        "genre_id": 9,
+        "publication_year": "1997"
+    },
+    {
+        "book_id": 10,
+        "title": "Commodi est deleniti et rerum quia incidunt totam.",
+        "author_id": 10,
+        "genre_id": 10,
+        "publication_year": "1999"
+    },
+    {
+        "book_id": 11,
+        "title": "Dignissimos minus animi qui non provident.",
+        "author_id": 11,
+        "genre_id": 11,
+        "publication_year": "1982"
+    },
+    {
+        "book_id": 12,
+        "title": "Provident quis voluptas aspernatur vitae.",
+        "author_id": 12,
+        "genre_id": 12,
+        "publication_year": "2008"
+    },
+    {
+        "book_id": 13,
+        "title": "Quo amet voluptatum occaecati et laboriosam explicabo illo autem.",
+        "author_id": 13,
+        "genre_id": 13,
+        "publication_year": "1988"
+    },
+    {
+        "book_id": 14,
+        "title": "Rem et magnam non ipsam nostrum ullam neque.",
+        "author_id": 14,
+        "genre_id": 14,
+        "publication_year": "1973"
+    },
+    {
+        "book_id": 15,
+        "title": "Qui omnis eius nulla dicta dolor.",
+        "author_id": 15,
+        "genre_id": 15,
+        "publication_year": "1978"
+    },
+    {
+        "book_id": 16,
+        "title": "Expedita nihil qui itaque sit porro consequatur id.",
+        "author_id": 16,
+        "genre_id": 16,
+        "publication_year": "2014"
+    },
+    {
+        "book_id": 17,
+        "title": "Nihil itaque eum atque cupiditate ullam.",
+        "author_id": 17,
+        "genre_id": 17,
+        "publication_year": "1999"
+    },
+    {
+        "book_id": 18,
+        "title": "Quia libero ducimus dolore rerum quaerat et.",
+        "author_id": 18,
+        "genre_id": 18,
+        "publication_year": "1970"
+    },
+    {
+        "book_id": 19,
+        "title": "Dolor libero est non quod enim.",
+        "author_id": 19,
+        "genre_id": 19,
+        "publication_year": "2016"
+    },
+    {
+        "book_id": 20,
+        "title": "Ad saepe ipsa optio ut impedit totam.",
+        "author_id": 20,
+        "genre_id": 20,
+        "publication_year": "2005"
+    },
+    {
+        "book_id": 21,
+        "title": "Et libero ducimus sed provident eveniet dolore dolorem.",
+        "author_id": 21,
+        "genre_id": 21,
+        "publication_year": "1990"
+    },
+    {
+        "book_id": 22,
+        "title": "Rerum doloremque rerum inventore magnam ad deserunt.",
+        "author_id": 22,
+        "genre_id": 22,
+        "publication_year": "1995"
+    },
+    {
+        "book_id": 23,
+        "title": "Et non qui molestias doloribus quia dignissimos.",
+        "author_id": 23,
+        "genre_id": 23,
+        "publication_year": "1978"
+    },
+    {
+        "book_id": 24,
+        "title": "Assumenda nulla ducimus accusamus aliquam corrupti.",
+        "author_id": 24,
+        "genre_id": 24,
+        "publication_year": "2020"
+    },
+    {
+        "book_id": 25,
+        "title": "Voluptas sint amet dolor maiores ipsa ex.",
+        "author_id": 25,
+        "genre_id": 25,
+        "publication_year": "2005"
+    },
+    {
+        "book_id": 26,
+        "title": "Dicta in doloribus est architecto harum et velit.",
+        "author_id": 26,
+        "genre_id": 26,
+        "publication_year": "2011"
+    },
+    {
+        "book_id": 27,
+        "title": "Exercitationem sunt magnam tempora facilis quia ratione fugit.",
+        "author_id": 27,
+        "genre_id": 27,
+        "publication_year": "2015"
+    },
+    {
+        "book_id": 28,
+        "title": "Laboriosam et voluptas hic voluptatibus.",
+        "author_id": 28,
+        "genre_id": 28,
+        "publication_year": "2003"
+    },
+    {
+        "book_id": 29,
+        "title": "Et ipsa tenetur itaque impedit est rem veritatis est.",
+        "author_id": 29,
+        "genre_id": 29,
+        "publication_year": "2018"
+    },
+    {
+        "book_id": 30,
+        "title": "Doloribus eos ducimus dolore nostrum non placeat sit.",
+        "author_id": 30,
+        "genre_id": 30,
+        "publication_year": "1997"
+    },
+    {
+        "book_id": 31,
+        "title": "Nulla et aut adipisci consequatur.",
+        "author_id": 31,
+        "genre_id": 31,
+        "publication_year": "2011"
+    },
+    {
+        "book_id": 32,
+        "title": "Id sint hic facilis nesciunt eaque aut est cum.",
+        "author_id": 32,
+        "genre_id": 32,
+        "publication_year": "1976"
+    },
+    {
+        "book_id": 33,
+        "title": "Nemo alias nesciunt aut.",
+        "author_id": 33,
+        "genre_id": 33,
+        "publication_year": "1980"
+    },
+    {
+        "book_id": 34,
+        "title": "Reprehenderit expedita ducimus ea dolorem rerum vel.",
+        "author_id": 34,
+        "genre_id": 34,
+        "publication_year": "1984"
+    },
+    {
+        "book_id": 35,
+        "title": "Maiores sed fugit vitae voluptatem.",
+        "author_id": 35,
+        "genre_id": 35,
+        "publication_year": "2020"
+    },
+    {
+        "book_id": 36,
+        "title": "Odio rerum illum officia sed perspiciatis.",
+        "author_id": 36,
+        "genre_id": 36,
+        "publication_year": "1989"
+    },
+    {
+        "book_id": 37,
+        "title": "Vero doloremque vel sed eum qui voluptates consequatur.",
+        "author_id": 37,
+        "genre_id": 37,
+        "publication_year": "2013"
+    },
+    {
+        "book_id": 38,
+        "title": "Et explicabo sit sit tempora commodi asperiores dolores.",
+        "author_id": 38,
+        "genre_id": 38,
+        "publication_year": "1993"
+    },
+    {
+        "book_id": 39,
+        "title": "Et autem deleniti dicta quia quisquam.",
+        "author_id": 39,
+        "genre_id": 39,
+        "publication_year": "2014"
+    },
+    {
+        "book_id": 40,
+        "title": "Optio et beatae laborum nulla.",
+        "author_id": 40,
+        "genre_id": 40,
+        "publication_year": "2003"
+    },
+    {
+        "book_id": 41,
+        "title": "Aut doloribus laborum id dolor quaerat nemo.",
+        "author_id": 41,
+        "genre_id": 41,
+        "publication_year": "1980"
+    },
+    {
+        "book_id": 42,
+        "title": "Voluptatem culpa dolor laboriosam consectetur inventore voluptate inventore.",
+        "author_id": 42,
+        "genre_id": 42,
+        "publication_year": "2024"
+    },
+    {
+        "book_id": 43,
+        "title": "Id dolorem officia numquam eligendi.",
+        "author_id": 43,
+        "genre_id": 43,
+        "publication_year": "1999"
+    },
+    {
+        "book_id": 44,
+        "title": "Ea animi velit in reprehenderit id quaerat.",
+        "author_id": 44,
+        "genre_id": 44,
+        "publication_year": "1998"
+    },
+    {
+        "book_id": 45,
+        "title": "Dolorum qui reiciendis quis laboriosam delectus officia velit eligendi.",
+        "author_id": 45,
+        "genre_id": 45,
+        "publication_year": "2012"
+    },
+    {
+        "book_id": 46,
+        "title": "Debitis incidunt possimus animi id ab ea.",
+        "author_id": 46,
+        "genre_id": 46,
+        "publication_year": "1975"
+    },
+    {
+        "book_id": 47,
+        "title": "Et veniam et veritatis dolorem.",
+        "author_id": 47,
+        "genre_id": 47,
+        "publication_year": "1980"
+    },
+    {
+        "book_id": 48,
+        "title": "Provident possimus enim temporibus non.",
+        "author_id": 48,
+        "genre_id": 48,
+        "publication_year": "1982"
+    },
+    {
+        "book_id": 49,
+        "title": "Dolorum illo tempora sunt esse voluptatem delectus.",
+        "author_id": 49,
+        "genre_id": 49,
+        "publication_year": "2011"
+    },
+    {
+        "book_id": 50,
+        "title": "Minus praesentium possimus laudantium.",
+        "author_id": 50,
+        "genre_id": 50,
+        "publication_year": "1980"
+    },
+    {
+        "book_id": 51,
+        "title": "Ipsa ut dolores quos quasi architecto quae modi.",
+        "author_id": 51,
+        "genre_id": 51,
+        "publication_year": "1975"
+    },
+    {
+        "book_id": 52,
+        "title": "Voluptatibus sunt nihil similique.",
+        "author_id": 52,
+        "genre_id": 52,
+        "publication_year": "2010"
+    },
+    {
+        "book_id": 53,
+        "title": "Quis dolorem provident vel nostrum.",
+        "author_id": 53,
+        "genre_id": 53,
+        "publication_year": "1984"
+    },
+    {
+        "book_id": 54,
+        "title": "Et eligendi ipsam reiciendis corporis ut.",
+        "author_id": 54,
+        "genre_id": 54,
+        "publication_year": "1987"
+    },
+    {
+        "book_id": 55,
+        "title": "Libero laboriosam animi earum rerum ducimus.",
+        "author_id": 55,
+        "genre_id": 55,
+        "publication_year": "2008"
+    },
+    {
+        "book_id": 56,
+        "title": "Non quis aliquid nihil iure aliquam rerum animi optio.",
+        "author_id": 56,
+        "genre_id": 56,
+        "publication_year": "2002"
+    },
+    {
+        "book_id": 57,
+        "title": "Quod consequatur ut et praesentium voluptate.",
+        "author_id": 57,
+        "genre_id": 57,
+        "publication_year": "2007"
+    },
+    {
+        "book_id": 58,
+        "title": "Quo sed ratione perspiciatis.",
+        "author_id": 58,
+        "genre_id": 58,
+        "publication_year": "2007"
+    },
+    {
+        "book_id": 59,
+        "title": "Eaque non modi et molestiae in voluptas.",
+        "author_id": 59,
+        "genre_id": 59,
+        "publication_year": "1996"
+    },
+    {
+        "book_id": 60,
+        "title": "Nesciunt debitis laboriosam vero nihil ut voluptate optio.",
+        "author_id": 60,
+        "genre_id": 60,
+        "publication_year": "2014"
+    },
+    {
+        "book_id": 61,
+        "title": "Repellendus et esse ipsa suscipit temporibus eos.",
+        "author_id": 61,
+        "genre_id": 61,
+        "publication_year": "1995"
+    },
+    {
+        "book_id": 62,
+        "title": "Adipisci voluptates minus veritatis ea.",
+        "author_id": 62,
+        "genre_id": 62,
+        "publication_year": "2020"
+    },
+    {
+        "book_id": 63,
+        "title": "Eum voluptatem consequatur fugit vitae voluptates.",
+        "author_id": 63,
+        "genre_id": 63,
+        "publication_year": "2017"
+    },
+    {
+        "book_id": 64,
+        "title": "Ratione dolor autem dolore magni in quia itaque eligendi.",
+        "author_id": 64,
+        "genre_id": 64,
+        "publication_year": "1972"
+    },
+    {
+        "book_id": 65,
+        "title": "Sint magni quaerat eveniet ut et.",
+        "author_id": 65,
+        "genre_id": 65,
+        "publication_year": "2018"
+    },
+    {
+        "book_id": 66,
+        "title": "Est voluptates tempora nemo.",
+        "author_id": 66,
+        "genre_id": 66,
+        "publication_year": "1997"
+    },
+    {
+        "book_id": 67,
+        "title": "Enim est quasi nobis.",
+        "author_id": 67,
+        "genre_id": 67,
+        "publication_year": "2015"
+    },
+    {
+        "book_id": 68,
+        "title": "Placeat minima tenetur qui cupiditate explicabo accusamus iusto.",
+        "author_id": 68,
+        "genre_id": 68,
+        "publication_year": "1996"
+    },
+    {
+        "book_id": 69,
+        "title": "Praesentium voluptas quos culpa.",
+        "author_id": 69,
+        "genre_id": 69,
+        "publication_year": "1973"
+    },
+    {
+        "book_id": 70,
+        "title": "Eos et et dolorum eos est ex.",
+        "author_id": 70,
+        "genre_id": 70,
+        "publication_year": "2005"
+    },
+    {
+        "book_id": 71,
+        "title": "Amet quia deleniti aut.",
+        "author_id": 71,
+        "genre_id": 71,
+        "publication_year": "2000"
+    },
+    {
+        "book_id": 72,
+        "title": "Ut excepturi labore non qui assumenda laboriosam harum.",
+        "author_id": 72,
+        "genre_id": 72,
+        "publication_year": "1979"
+    },
+    {
+        "book_id": 73,
+        "title": "Recusandae suscipit commodi expedita consequatur reiciendis excepturi molestiae adipisci.",
+        "author_id": 73,
+        "genre_id": 73,
+        "publication_year": "2007"
+    },
+    {
+        "book_id": 74,
+        "title": "Et id harum aut harum perferendis illo voluptatibus qui.",
+        "author_id": 74,
+        "genre_id": 74,
+        "publication_year": "2000"
+    },
+    {
+        "book_id": 75,
+        "title": "Sit harum numquam necessitatibus et deleniti consequatur aut qui.",
+        "author_id": 75,
+        "genre_id": 75,
+        "publication_year": "1990"
+    },
+    {
+        "book_id": 76,
+        "title": "Cumque dolore eos vitae ut et.",
+        "author_id": 76,
+        "genre_id": 76,
+        "publication_year": "1984"
+    },
+    {
+        "book_id": 77,
+        "title": "Deserunt sunt exercitationem odit ab possimus ut sint.",
+        "author_id": 77,
+        "genre_id": 77,
+        "publication_year": "2004"
+    },
+    {
+        "book_id": 78,
+        "title": "Sapiente nisi cum ex aut.",
+        "author_id": 78,
+        "genre_id": 78,
+        "publication_year": "1980"
+    },
+    {
+        "book_id": 79,
+        "title": "Voluptate atque magni beatae nisi unde et.",
+        "author_id": 79,
+        "genre_id": 79,
+        "publication_year": "1990"
+    },
+    {
+        "book_id": 80,
+        "title": "Est quo aut tempora reiciendis doloribus sunt iure magni.",
+        "author_id": 80,
+        "genre_id": 80,
+        "publication_year": "1984"
+    },
+    {
+        "book_id": 81,
+        "title": "Iste totam nihil pariatur autem.",
+        "author_id": 81,
+        "genre_id": 81,
+        "publication_year": "2012"
+    },
+    {
+        "book_id": 82,
+        "title": "Maxime repudiandae voluptatem ad dicta et delectus.",
+        "author_id": 82,
+        "genre_id": 82,
+        "publication_year": "2011"
+    },
+    {
+        "book_id": 83,
+        "title": "Maxime sapiente corporis accusantium non reiciendis.",
+        "author_id": 83,
+        "genre_id": 83,
+        "publication_year": "2023"
+    },
+    {
+        "book_id": 84,
+        "title": "Ad quae nihil totam cumque quos velit aut.",
+        "author_id": 84,
+        "genre_id": 84,
+        "publication_year": "1995"
+    },
+    {
+        "book_id": 85,
+        "title": "Perspiciatis quam consequatur ut.",
+        "author_id": 85,
+        "genre_id": 85,
+        "publication_year": "2013"
+    },
+    {
+        "book_id": 86,
+        "title": "Ut harum delectus blanditiis.",
+        "author_id": 86,
+        "genre_id": 86,
+        "publication_year": "2020"
+    },
+    {
+        "book_id": 87,
+        "title": "Quia quas unde et repellat et occaecati ipsum.",
+        "author_id": 87,
+        "genre_id": 87,
+        "publication_year": "2012"
+    },
+    {
+        "book_id": 88,
+        "title": "In ut dignissimos animi corporis iusto dolorem adipisci.",
+        "author_id": 88,
+        "genre_id": 88,
+        "publication_year": "1971"
+    },
+    {
+        "book_id": 89,
+        "title": "Maxime velit pariatur numquam possimus corrupti et minus.",
+        "author_id": 89,
+        "genre_id": 89,
+        "publication_year": "2004"
+    },
+    {
+        "book_id": 90,
+        "title": "Minima eius qui delectus magni magni et.",
+        "author_id": 90,
+        "genre_id": 90,
+        "publication_year": "1979"
+    },
+    {
+        "book_id": 91,
+        "title": "Quaerat aut commodi veniam.",
+        "author_id": 91,
+        "genre_id": 91,
+        "publication_year": "1977"
+    },
+    {
+        "book_id": 92,
+        "title": "Id vero nulla aut quia laudantium quae porro nihil.",
+        "author_id": 92,
+        "genre_id": 92,
+        "publication_year": "1987"
+    },
+    {
+        "book_id": 93,
+        "title": "Quia fuga alias maiores et consectetur.",
+        "author_id": 93,
+        "genre_id": 93,
+        "publication_year": "2001"
+    },
+    {
+        "book_id": 94,
+        "title": "Incidunt qui voluptatem esse.",
+        "author_id": 94,
+        "genre_id": 94,
+        "publication_year": "1987"
+    },
+    {
+        "book_id": 95,
+        "title": "Rerum minus omnis mollitia sed quas.",
+        "author_id": 95,
+        "genre_id": 95,
+        "publication_year": "1992"
+    },
+    {
+        "book_id": 96,
+        "title": "Perspiciatis vel sunt magnam deserunt.",
+        "author_id": 96,
+        "genre_id": 96,
+        "publication_year": "2021"
+    },
+    {
+        "book_id": 97,
+        "title": "Cum consequatur omnis sit eligendi laboriosam qui.",
+        "author_id": 97,
+        "genre_id": 97,
+        "publication_year": "1974"
+    },
+    {
+        "book_id": 98,
+        "title": "Ut modi consequuntur facilis ratione totam.",
+        "author_id": 98,
+        "genre_id": 98,
+        "publication_year": "1986"
+    },
+    {
+        "book_id": 99,
+        "title": "In voluptate aut et labore sequi ut quia.",
+        "author_id": 99,
+        "genre_id": 99,
+        "publication_year": "1988"
+    },
+    {
+        "book_id": 100,
+        "title": "Accusantium similique ullam in.",
+        "author_id": 100,
+        "genre_id": 100,
+        "publication_year": "1973"
+    }
+]
