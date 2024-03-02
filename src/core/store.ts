@@ -35,7 +35,7 @@ export const createStore = <T>(initialState: T) => {
 type StoreType<T> = ReturnType<typeof createStore<T>>;
 type Callback<T, P> = (state: T) => P;
 
-export const useStore = <T, P>(
+export const useStore = <T, P = T>(
   store: StoreType<T>,
   selector: Callback<T, P> = (state) => state as unknown as P
 ): [P, (...args: Parameters<typeof store.setState>) => void] => {
