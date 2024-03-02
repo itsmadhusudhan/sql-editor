@@ -73,7 +73,7 @@ const Header = () => {
     <header className="h-16 border-b flex justify-between items-center px-5 gap-5">
       <Dialog>
         <DialogTrigger>
-          <Settings2 className="block md:hidden" />
+          <Settings2 className="block md:hidden" aria-label="QueryDialog" />
         </DialogTrigger>
         <DialogContent>
           <Sidebar className="w-full" showTitle={false} />
