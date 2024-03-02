@@ -1,4 +1,6 @@
-import { lazy } from "react";
+import { Suspense, lazy } from "react";
+import { Loader2 } from "lucide-react";
+
 import Results from "./Results";
 import Sidebar from "./Sidebar";
 import Header from "./components/Header";
@@ -12,7 +14,15 @@ const Layout = () => {
         <Sidebar />
         <div className="h-full overflow-hidden">
           <Header />
-          <QueryEditor />
+          <Suspense
+            fallback={
+              <div className="flex h-full items-center justify-center">
+                <Loader2 className="animate-spin" />
+              </div>
+            }
+          >
+            <QueryEditor />
+          </Suspense>
         </div>
       </div>
       <Results />

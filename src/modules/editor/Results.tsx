@@ -9,7 +9,7 @@ import {
   TableRow,
 } from "@/components/table";
 
-import { useResultStore } from "./data/store";
+import { useResultStore } from "./data/resultStore";
 
 const Results = () => {
   const [state] = useResultStore();
@@ -18,7 +18,7 @@ const Results = () => {
     if (state.isLoading) {
       return (
         <div className="flex items-center justify-center h-[calc(100%-3rem)]">
-          <Loader2 />
+          <Loader2 className="animate-spin" />
         </div>
       );
     }

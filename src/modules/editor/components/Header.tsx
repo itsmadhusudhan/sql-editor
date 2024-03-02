@@ -4,7 +4,7 @@ import memoize from "memoize";
 import { Button } from "@/components/button";
 
 import { respository } from "@/db/respository";
-import { ResultState, resultStore, useResultStore } from "../data/store";
+import { ResultState, resultStore, useResultStore } from "../data/resultStore";
 
 const counter = (state: ResultState) => {
   return {

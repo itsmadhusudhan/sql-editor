@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { EditorView, basicSetup } from "codemirror";
 import { sql } from "@codemirror/lang-sql";
 
-import { resultStore } from "./data/store";
+import { resultStore } from "./data/resultStore";
 
 const QueryEditor = () => {
   const editorRef = useRef<HTMLDivElement>(null);
