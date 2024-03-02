@@ -3,7 +3,7 @@
 Atlan Interview challenge to build a web-based application capable of running SQL queries and displaying the results of said query.
 
 ## Demo
-TODO: Add demo link
+https://sql-editor-snowy.vercel.app/
 
 ## Video Walkthrough
 TODO: Add video walkthrough link
@@ -16,22 +16,23 @@ TODO: Add video walkthrough link
 
 **Required**
 
-- [ ] Query Editor
-- [ ] Results table
-- [ ] Export Results into json/csv
-- [ ] Saved Queries
+- [x] Query Editor
+- [x] Results table
+- [x] Export Results into json
+- [x] Saved Queries
 
 **Additional**
-- [ ] Query History
-- [ ] Table Schema
-- [ ] Paginated Results
-- [ ] Dark Mode
+- [ ] ~~Query History~~
+- [x] Table Schema
+- [ ] ~~Paginated Results~~
+- [ ] ~~Dark Mode~~
 
 ## Tech Stack
 - React
 - Tailwind CSS
 - Shadcn Components
 - Code Mirror
+- alasql
 
 ## Performance
 TODO: Add performance details
