@@ -8,7 +8,7 @@ NOTE: This project uses in-memory database to run the queries. It does not conne
 https://sql-editor-snowy.vercel.app/
 
 ## Video Walkthrough
-<iframe width="560" height="315" src="https://youtube.com/embed/412gWJB9Jx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=412gWJB9Jx8
 
 ## Requirements
 
