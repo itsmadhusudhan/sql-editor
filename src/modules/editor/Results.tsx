@@ -100,6 +100,7 @@ const Results = () => {
             variant="outline"
             disabled={disableExport}
             onClick={handleExport}
+            aria-label="Export"
           >
             <Share2 size={16} className="mr-2" />
             <span className="hidden md:block">Export</span>

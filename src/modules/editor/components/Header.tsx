@@ -84,7 +84,11 @@ const Header = () => {
         {queryName}
       </div>
       <div className="flex gap-4">
-        <Button onClick={handleExecute} disabled={!pendingQuery}>
+        <Button
+          aria-label="Execute"
+          onClick={handleExecute}
+          disabled={!pendingQuery}
+        >
           <CloudLightning size={16} className="mr-2" />
           <span className="hidden md:block">Execute</span>
         </Button>
