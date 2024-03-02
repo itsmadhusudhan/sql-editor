@@ -3,11 +3,33 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs";
 import SavedQueries from "./tabs/SavedQueries";
 import SchemaTable from "./tabs/SchemaTable";
 
-const Sidebar = () => {
+import { cn } from "@/lib/utils";
+
+type Props = {
+  className?: string;
+  showTitle?: boolean;
+};
+
+const Sidebar = (props: Props) => {
+  const { showTitle = true } = props;
+
+  const titleOffset = showTitle ? 64 : 0;
+
   return (
-    <div className="w-64 min-w-16 border-r overflow-hidden h-full select-none hidden md:block">
-      <div className="p-5">SQL Editor</div>
-      <Tabs defaultValue="saved" className="h-[calc(100%-64px)]">
+    <div
+      className={cn(
+        "w-64 min-w-16 h-full",
+        "overflow-hidden",
+        "select-none",
+        "z-10",
+        props.className
+      )}
+    >
+      {showTitle && <div className="p-5">SQL Editor</div>}
+      <Tabs
+        defaultValue="saved"
+        className={cn(`h-[calc(100%-${titleOffset}px)]`)}
+      >
         <div className="p-5 flex justify-center border-b">
           <TabsList className="w-full">
             <TabsTrigger value="saved">Saved</TabsTrigger>

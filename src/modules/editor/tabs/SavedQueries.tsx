@@ -22,7 +22,7 @@ const SavedQueries = () => {
   };
 
   return (
-    <div>
+    <>
       {state.saved.map((query) => (
         <div
           key={query.id}
@@ -32,7 +32,7 @@ const SavedQueries = () => {
           {query.name}
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

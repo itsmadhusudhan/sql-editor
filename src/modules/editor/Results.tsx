@@ -21,7 +21,7 @@ const Results = () => {
     state.isLoading || !!state.error || !state.data || !state.data.length;
 
   const handleExport = () => {
-    exportToJson(state.data as Record<string, unknown>[], "results");
+    exportToJson(state.data as Record<string, unknown>[], state.queryName);
   };
 
   const renderTable = () => {
