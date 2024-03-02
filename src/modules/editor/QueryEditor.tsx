@@ -38,7 +38,10 @@ const QueryEditor = () => {
               return;
             }
 
-            resultStore.setState({ pendingQuery: query });
+            resultStore.setState({
+              pendingQuery: query,
+              queryName: "Untitled Query",
+            });
           }
         }),
       ],
