@@ -39,7 +39,7 @@ export const sqlStore = createStore<SqlState>({
     },
     {
       id: "5",
-      name: "Gel Book Loans",
+      name: "Get Book Loans",
       query: `Select b.title as Title,
       br.name as Borrower,
       l.loan_date as LoanDate,

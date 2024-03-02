@@ -1,10 +1,11 @@
-import { CloudLightning, Save } from "lucide-react";
+import { CloudLightning } from "lucide-react";
 import memoize from "memoize";
 
 import { Button } from "@/components/button";
 
 import { respository } from "@/db/respository";
 import { ResultState, resultStore, useResultStore } from "../data/resultStore";
+import { generateRandomInt } from "@/lib/utils";
 
 const counter = (state: ResultState) => {
   return {
@@ -27,6 +28,8 @@ const Header = () => {
       return;
     }
 
+    const delay = generateRandomInt(100, 200);
+
     try {
       setState({
         isLoading: true,
@@ -40,13 +43,17 @@ const Header = () => {
         data = result.map((row, index) => ({ ...row, _id: index }));
       }
 
-      setState({
-        data,
-        pendingQuery: "",
-        currentQuery: query,
-        isLoading: false,
-        error: null,
-      });
+      // simulated delay
+      setTimeout(() => {
+        setState({
+          data,
+          pendingQuery: "",
+          currentQuery: query,
+          isLoading: false,
+          error: null,
+          executionTime: delay,
+        });
+      }, delay);
     } catch (e: any) {
       console.log(e);
 
@@ -56,6 +63,7 @@ const Header = () => {
         currentQuery: query,
         error: e.data,
         isLoading: false,
+        executionTime: delay,
       });
     }
   };
@@ -66,10 +74,6 @@ const Header = () => {
         {queryName}
       </div>
       <div className="flex gap-4">
-        <Button variant="outline">
-          <Save size={16} className="mr-2" />
-          <span className="hidden md:block">Save</span>
-        </Button>
         <Button onClick={handleExecute} disabled={!pendingQuery}>
           <CloudLightning size={16} className="mr-2" />
           <span className="hidden md:block">Execute</span>

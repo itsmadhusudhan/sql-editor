@@ -1,4 +1,4 @@
-import { Loader2 } from "lucide-react";
+import { Loader2, Share2 } from "lucide-react";
 
 import {
   Table,
@@ -8,11 +8,21 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/table";
+import { Button } from "@/components/button";
 
 import { useResultStore } from "./data/resultStore";
 
+import { exportToJson } from "@/lib/utils";
+
 const Results = () => {
   const [state] = useResultStore();
+
+  const disableExport =
+    state.isLoading || !!state.error || !state.data || !state.data.length;
+
+  const handleExport = () => {
+    exportToJson(state.data as Record<string, unknown>[], "results");
+  };
 
   const renderTable = () => {
     if (state.isLoading) {
@@ -79,9 +89,22 @@ const Results = () => {
     <div className="border-t h-[300px] overflow-auto">
       <div className="h-12 border-b flex items-center justify-between px-5 sticky top-0 bg-background z-10">
         <span>Results</span>
-        {!state.error && Array.isArray(state.data) && (
-          <span>{`${state.data.length} rows`}</span>
-        )}
+        <div className="flex items-center gap-4">
+          {!state.error &&
+            Array.isArray(state.data) &&
+            (state.executionTime || 0) > 0 && (
+              <span>{`${state.data.length} rows in ${state.executionTime} ms`}</span>
+            )}
+
+          <Button
+            variant="outline"
+            disabled={disableExport}
+            onClick={handleExport}
+          >
+            <Share2 size={16} className="mr-2" />
+            <span className="hidden md:block">Export</span>
+          </Button>
+        </div>
       </div>
       {renderTable()}
     </div>

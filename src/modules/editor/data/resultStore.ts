@@ -7,6 +7,7 @@ export type ResultState = {
   currentQuery: string | null;
   error: string | null;
   queryName: string;
+  executionTime: number | null;
 };
 
 export const resultStore = createStore<ResultState>({
@@ -16,6 +17,7 @@ export const resultStore = createStore<ResultState>({
   currentQuery: null,
   error: null,
   queryName: "Untitled Query",
+  executionTime: null,
 });
 
 export const useResultStore = <T = ResultState>(
